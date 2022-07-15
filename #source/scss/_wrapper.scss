@@ -1,0 +1,15 @@
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   min-height: 100%;
+}
+.page {
+   flex: 1 1 auto;
+}
+[class*="__container"] {
+   max-width: 1945px;
+   margin: 0 auto;
+   box-sizing: content-box;
+   padding: 0px 15px;
+}
